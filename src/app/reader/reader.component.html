@@ -1,0 +1,3 @@
+@for (item of person; track $index) {
+    {{item | json}}<button (click)="Remove($index)">Remove</button><br>
+}
